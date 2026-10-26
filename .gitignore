@@ -1,0 +1,21 @@
+# ===== GapBench 开源口径：只分享 README / LICENSE / 文档 / .lcpppkg 源码包 =====
+# （全部源码、设计器模型、样图与配置都已内嵌在 GapBench.lcpppkg 内，
+#   用 LingBuilder IDE 导入该包即可还原完整工程，因此 workspace 不入库。）
+
+workspace/
+
+# ===== LingBuilder 构建产物（导入编译后生成）=====
+.lingbuilder-build/
+.lingbuilder/
+generated/
+
+# ===== 识别标注输出 =====
+samples/out/
+src/samples/out/
+
+# ===== 源码包清单生成物（已内嵌在 .lcpppkg 内）=====
+*.lcpppkg.manifest.json
+
+# ===== 系统 =====
+Thumbs.db
+Desktop.ini
