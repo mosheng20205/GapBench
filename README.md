@@ -26,7 +26,7 @@
 
 ### 如何编译
 
-1. 安装开源版 LingBuilder IDE：**https://github.com/mosheng20205/lingbuilder**（需自备 Visual Studio 的 MSVC x64 工具链）。
+1. 安装开源版 LingBuilder IDE：[LingBuilder（github.com/mosheng20205/lingbuilder）](https://github.com/mosheng20205/lingbuilder)（需自备 Visual Studio 的 MSVC x64 工具链）。
 2. 在 IDE 模块管理中免费安装两个模块：
    - **滑块缺口识别模块**（`lingbuilder.captcha.gap` 1.1.2+，含识别模型与 onnxruntime，约 39MB）
    - **内嵌资源模块**、**日期时间模块**、**Win32 高级控件模块**、**文件目录模块**（内置模块，如未启用请一并启用）
@@ -57,7 +57,7 @@
 
 ### Build
 
-1. Install the open-source LingBuilder IDE: **https://github.com/mosheng20205/lingbuilder** (MSVC x64 toolchain required).
+1. Install the open-source LingBuilder IDE: [LingBuilder (github.com/mosheng20205/lingbuilder)](https://github.com/mosheng20205/lingbuilder) (MSVC x64 toolchain required).
 2. Install the free modules in the IDE module manager: **滑块缺口识别模块 / Slider Gap Recognition Module** (`lingbuilder.captcha.gap` 1.1.2+, bundles the ONNX model and onnxruntime, ~39MB) plus the built-in modules listed in the project manifest.
 3. Open `GapBench.lcpppkg` (or `workspace\滑块缺口验证台.lbsln`) and press **F5**. The 9 sample images are embedded into the EXE and auto-extracted at startup.
 
